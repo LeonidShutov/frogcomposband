@@ -176,15 +176,16 @@
 
   Download the binary archive for Windows.  Unzip it to any location that you 
   will have full permissions and launch frogcomposband to play.
+  Download and Install MinGW.
 
-  To compile the source code in MinGW:
+  To compile the source code in MinGW (run these commands in msys.bat):
   $ ./autogen.sh
   $ ./configure --enable-win
   $ make
 
   MinGW sometimes randomly chokes on one of these steps, in which case you
   will need to redo that step.
-
+  Move Frogcomposband.exe file from /src to the root directory of the game.
 
 ----------  Basics  ------------
 
